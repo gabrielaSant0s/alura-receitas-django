@@ -11,6 +11,13 @@ class ListandoReceitas(admin.ModelAdmin):
     list_display = ('id', 'nome_receita', 'categoria')
     # deixa os atributos do objeto clicáveis
     list_display_links = ('id', 'nome_receita')
+    # cria um campo de busca no admin q procura só as receitas por nome
+    search_fields = ('nome_receita',)
+    # cria um campo de filtro só com as categorias
+    list_filter = ('categoria',)
+    # cria paginação no caso tera 5 itens por pagina
+    list_per_page = 5
 
 
+# aqui passa a model e classes para o admin
 admin.site.register(Receita, ListandoReceitas)
