@@ -8,7 +8,7 @@ from .models import Receita
 
 class ListandoReceitas(admin.ModelAdmin):
     # exibe esses atibrutos ao invés de object1, object2 e etc
-    list_display = ('id', 'nome_receita', 'categoria')
+    list_display = ('id', 'nome_receita', 'categoria', 'publicada')
     # deixa os atributos do objeto clicáveis
     list_display_links = ('id', 'nome_receita')
     # cria um campo de busca no admin q procura só as receitas por nome
@@ -17,6 +17,8 @@ class ListandoReceitas(admin.ModelAdmin):
     list_filter = ('categoria',)
     # cria paginação no caso tera 5 itens por pagina
     list_per_page = 5
+    # diz q o campo pode ser editado sem entrar no objeto
+    list_editable = ('publicada',)
 
 
 # aqui passa a model e classes para o admin
