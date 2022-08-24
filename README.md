@@ -1,6 +1,6 @@
 # Alura receitas Django
 
-Site de receitas construido em Django 2 com banco de dados PostgrSQL. Roda em localhost
+Site de receitas construido em Django com banco de dados PostgrSQL. Roda em localhost
 
 ![image](https://user-images.githubusercontent.com/68717544/181872497-dd496424-4e07-4a04-89c1-832e5fd6f829.png)
 
