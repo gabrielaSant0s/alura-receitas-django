@@ -18,5 +18,8 @@ Site de receitas construido em Django com banco de dados PostgrSQL. Roda em loca
 
 ![image](https://user-images.githubusercontent.com/68717544/187798878-4d92b4d3-9cc8-4cf5-8cc9-410c7e4c1336.png)
 
+![image](https://user-images.githubusercontent.com/68717544/189246665-762df290-29e6-4aff-bde1-cbbd862af12c.png)
+
+
 
 
